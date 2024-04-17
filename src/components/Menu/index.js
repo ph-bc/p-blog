@@ -6,7 +6,7 @@ function Menu() {
     <header>
       <nav className={styles.navigation}>
         <ActiveMenu to="/">Home</ActiveMenu>
-        <ActiveMenu to="/about-me">Sobre Mim</ActiveMenu>
+        <ActiveMenu to="/sobre-mim">Sobre Mim</ActiveMenu>
       </nav>
     </header>
   );

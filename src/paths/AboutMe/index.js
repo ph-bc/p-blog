@@ -6,7 +6,7 @@ import aboutMePhoto from "assets/aboutMePhoto.png";
 function AboutMe() {
   return (
     <section>
-      <PostContent coverPhoto={coverPhoto} title="Sobre mim">
+      <PostContent coverPhoto={coverPhoto} title="Sobre Mim">
         <h3 className={styles.subtitle}>Olá, eu sou o Pedro!</h3>
         <img
           src={aboutMePhoto}

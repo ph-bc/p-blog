@@ -15,7 +15,7 @@ function AppRoutes() {
       <Routes>
         <Route path="/" element={<Default />}>
           <Route index element={<Home />} />
-          <Route path="about-me" element={<AboutMe />} />
+          <Route path="sobre-mim" element={<AboutMe />} />
         </Route>
         <Route path="posts/:title/*" element={<Post />} />
         <Route path="*" element={<NotFound />} />

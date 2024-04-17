@@ -114,10 +114,19 @@
   .images > .myPhoto {
     width: 170px;
     transform: translate(5rem, 0px);
+    -webkit-transform: translate(5rem, 0px);
+    -moz-transform: translate(5rem, 0px);
+    -ms-transform: translate(5rem, 0px);
+    -o-transform: translate(5rem, 0px);
   }
 
   .images > .coloredCircle {
     width: 240px;
+    height: 240px;
     transform: translate(-1.5rem, 0px);
+    -webkit-transform: translate(-1.5rem, 0px);
+    -moz-transform: translate(-1.5rem, 0px);
+    -ms-transform: translate(-1.5rem, 0px);
+    -o-transform: translate(-1.5rem, 0px);
   }
 }
